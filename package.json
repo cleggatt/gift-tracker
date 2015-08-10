@@ -9,6 +9,7 @@
     "url": "https://github.com/cleggatt/gift-tracker"
   },
   "devDependencies": {
+    "coveralls": "^2.11.3",
     "css-loader": "^0.15.6",
     "del": "^1.2.0",
     "file-loader": "^0.8.4",
@@ -26,7 +27,7 @@
   },
   "private": true,
   "scripts": {
-    "test": "./gulpw webpack"
+    "test": "./gulpw webpack && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
