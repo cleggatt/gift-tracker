@@ -1,0 +1,11 @@
+.content-panel {
+    border-radius: 4px 4px 0 0;
+    border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 15px;
+}
+
+.nav-tabs-content {
+    padding-top: 10px;
+}

@@ -1,0 +1,39 @@
+{
+  "name": "gift-tracker",
+  "version": "0.1.0",
+  "description": "Gift Tracker",
+  "author": "cleggatt <cleggatt@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cleggatt/gift-tracker"
+  },
+  "devDependencies": {
+    "css-loader": "^0.15.6",
+    "del": "^1.2.0",
+    "file-loader": "^0.8.4",
+    "gulp": "^3.9.0",
+    "gulp-jest": "^0.4.0",
+    "gulp-util": "~3.0.5",
+    "harmonize": "^1.4.4",
+    "html-webpack-plugin": "^1.6.0",
+    "jsx-loader": "^0.13.2",
+    "react-tools": "^0.13.3",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "private": true,
+  "scripts": {
+    "test": "./gulpw"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "classnames": "^2.1.3",
+    "flux": "^2.0.3",
+    "object-assign": "^3.0.0",
+    "parse": "^1.5.0",
+    "react": "^0.13.3"
+  }
+}
