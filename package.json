@@ -26,7 +26,7 @@
   },
   "private": true,
   "scripts": {
-    "test": "./gulpw"
+    "test": "./gulpw webpack"
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
